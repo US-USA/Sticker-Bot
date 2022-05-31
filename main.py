@@ -17,9 +17,9 @@ from pyrogram.types import User, Message, Sticker, Document
     
 bughunter0 = Client(
     "Sticker-Bot",
-    bot_token = os.environ["BOT_TOKEN"],
-    api_id = int(os.environ["API_ID"]),
-    api_hash = os.environ["API_HASH"]
+    bot_token = ("5584813137:AAFfCpc-QXJikCKxyaqntGzob_dz-ud0y3Y"),
+    api_id = ("17127676"),
+    api_hash = ("0ba1df3d546d000c1406c2912a8f431b")
 )
 
 START_STRING = """ Hi {}, I'm Sticker Bot. 
